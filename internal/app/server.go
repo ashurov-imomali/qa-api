@@ -16,6 +16,5 @@ func NewServer(addr string, h *handlers.Handler) *http.Server {
 		ReadTimeout:  30 * time.Second,
 		WriteTimeout: 30 * time.Second,
 	}
-
 	return srv
 }
